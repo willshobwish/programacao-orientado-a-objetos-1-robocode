@@ -1,3 +1,5 @@
+//Andressa Yida Pinheiro de Souza
+//Willian Yoshio Murayama
 package Projeto;
 
 import robocode.*;
