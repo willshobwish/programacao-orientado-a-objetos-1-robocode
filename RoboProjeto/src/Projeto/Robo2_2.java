@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//Andressa Yida Pinheiro de Souza
+//Willian Yoshio Murayama
 package Projeto;
 
-/**
- *
- * @author Willian
- */
-public class Robo2_2 {
-    
+import robocode.*;
+
+public class Robo2_2 extends MeuRobo2 {
+
+    public void onScannedRobot(ScannedRobotEvent e) {
+        double distance = e.getDistance();
+    }
+
+    @Override
+    public void run() {
+        if distance < 50 {
+
+        }
+// Robot main loop
+        while (true) {
+            mover();
+        }
+    }
 }
