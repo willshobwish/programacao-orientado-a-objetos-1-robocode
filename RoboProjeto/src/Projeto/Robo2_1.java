@@ -2,6 +2,7 @@
 //Willian Yoshio Murayama
 package Projeto;
 
+import Pai.MeuRobo2;
 import robocode.*;
 
 public class Robo2_1 extends MeuRobo2 {

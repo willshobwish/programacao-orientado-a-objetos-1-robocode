@@ -1,4 +1,4 @@
-package Projeto;
+package Pai;
 
 import java.awt.Color;
 import robocode.*;
