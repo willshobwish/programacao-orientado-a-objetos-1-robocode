@@ -1,6 +1,6 @@
 //Andressa Yida Pinheiro de Souza
 //Willian Yoshio Murayama
-package Projeto;
+package Filho;
 
 import Pai.MeuRobo2;
 import robocode.*;
