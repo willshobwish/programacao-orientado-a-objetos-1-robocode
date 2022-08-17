@@ -9,11 +9,6 @@ public class Robo2_1 extends MeuRobo2 {
 
     @Override
     public void onHitByBullet(HitByBulletEvent event) {
-        mover();
-    }
-
-    @Override
-    public void mover() {
         setBack(100);
         setTurnRight(90);
         setAhead(50);
