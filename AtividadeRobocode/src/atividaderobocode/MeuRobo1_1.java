@@ -53,13 +53,15 @@ public class MeuRobo1_1 extends MeuRobo1 {
 
     @Override
     public void mover() {
-        ahead(20);
-        turnGunRight(20);
+        while (true) {
+            ahead(20);
+            turnGunRight(20);
 
-        calcularDistancia();
+            calcularDistancia();
 
-        if (distancia <= limite) {
+            if (distancia <= limite) {
             turnLeft(180);
+            }
         }
     }
 
